@@ -10,10 +10,15 @@ You need a configuration file to replace the one that comes with the image at /r
 
 Please reference the one at [https://github.com/peercoin/peercoin/wiki/Installation#sample-ppcoin-configuration](https://github.com/peercoin/peercoin/wiki/Installation#sample-ppcoin-configuration)
 
-## Help about options of the daemon
+## Help
 
+### Help about options of the daemon
 ```
 docker exec -it <your_container_name> /peercoin-0.6.1ppc/src/peercoind --help
+```
+### Help about commands of the daemon
+```
+docker exec -it <your_container_name> /peercoin-0.6.1ppc/src/peercoind help
 ```
 
 ## Run the container
@@ -31,4 +36,4 @@ docker run \
 
 ## Donations
 
-
+Peercoins address `PEkmXcgL4wWb2mSZiLXr5cMfRKvpFY1kaA`
